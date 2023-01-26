@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.weathercast</groupId>
-	<artifactId>WeatherReport </artifactId>
+	<artifactId>WeatherReport</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>WeatherReport</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -50,14 +50,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>com.heroku.sdk</groupId>
-				<artifactId>heroku-maven-plugin</artifactId>
-				<version>3.0.6</version>
-				<configuration>
-					<appName>newQRCodeGenerator</appName>
-				</configuration>
-			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
